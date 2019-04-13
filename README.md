@@ -1,6 +1,6 @@
-##Project Proposal
+# Project Proposal #
 
-#“Searching for Happiness in all the right places”
+## “Searching for Happiness in all the right places” ##
 Jason Winer
 Holly Bergen
 Chelsea Monahan
