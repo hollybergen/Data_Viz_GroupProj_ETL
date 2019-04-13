@@ -8,11 +8,11 @@ Pravin Venkatraman
 
 
 Data Sources: 
-•	Country facts: https://www.kaggle.com/usdod/world-factbook-country-profiles#factbook-country-profiles.json
+* Country facts: https://www.kaggle.com/usdod/world-factbook-country-profiles#factbook-country-profiles.json
     * Format = JSON
-•	World happiness index by country: https://www.kaggle.com/unsdsn/world-happiness#2017.csv
+* World happiness index by country: https://www.kaggle.com/unsdsn/world-happiness#2017.csv
     * Format = csv
-•	Possibilities looking into other APIs to combine countries and happiness as a theme
+* Possibilities looking into other APIs to combine countries and happiness as a theme
 
 Procedures:
 1.	Extract Download JSON and CSV from data world
