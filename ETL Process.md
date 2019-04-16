@@ -11,6 +11,7 @@
   * Country names linked to region, population, area size, GDP, mortality and more
   * File types: CSV, JSON
 * [Birth Rate](https://databank.worldbank.org/data/reports.aspx?source=gender-statistics#)
+  * All countries were selected and the series called "Birth rate, crude (per 1,000 people)" was selected for the years 2016-2018. Unfortunately, only data for 2016 was available
   * File type: CSV
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
