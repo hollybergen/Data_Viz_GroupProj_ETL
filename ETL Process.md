@@ -9,7 +9,7 @@
   * Country names linked to region, population, area size, GDP, mortality and more
   * File types: CSV, JSON
   
-  !(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)!
+  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
 
 
 ## The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc) ##
