@@ -54,7 +54,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
    * pd.read_csv
    * pd.read_json
 
-### Complications ###
+### Challenges ###
 
 * **Error with csv read:** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64  
   * **How error resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines
@@ -72,7 +72,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   * Keep only columns of interest
   * Drop columns with no data
 
-### Complications ###
+### Challenges ###
 
 * Had multiple dataframes with columns named as only the year. This could possibly cause confusion in later analysis or manipulation. **Resolution:** Rename columns to keep differentiated.
 * Adding code after already run to change the name of column in DataFrame, but table using the old DataFrame had already been created. **Resolution:** Drop the old table from the db and adjust the code accordingly.
