@@ -20,8 +20,8 @@
 ### Method ###
 * Jupyter notebook/Python
   * Pandas
-  * pd.read_csv
-  * pd.read_json
+   * pd.read_csv
+   * pd.read_json
 
 ### Complications ###
 
