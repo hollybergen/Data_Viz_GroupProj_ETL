@@ -5,7 +5,7 @@
 * [Travel Data](https://data.worldbank.org/indicator/ST.INT.ARVL?end=2017&start=1995&year_high_desc=false)
   * For 10 years from 2008 to 2018, shows number of traveler arrivals per country
 * [Country Data](https://www.kaggle.com/fernandol/countries-of-the-world)
-  * (Country names linked to region, population, area size, GDP, mortality and more)
+  * Country names linked to region, population, area size, GDP, mortality and more
 
 
 ## The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc)##
