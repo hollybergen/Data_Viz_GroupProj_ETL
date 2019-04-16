@@ -20,5 +20,5 @@ Pravin Venkatraman
 3.	Join databases together using country name as key field
 4.	Combine using joins in master database in MYSQL format
 
-**Final State**
+**Final State:**<br>
 We would like to be able to examine which countries are happiest and what indicators in each relates to happiness potentially by happiness index.
