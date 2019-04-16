@@ -16,6 +16,12 @@
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
+  
+### Method ###
+* Jupyter notebook/Python
+  * Pandas
+  * pd.read_csv
+  * pd.read_json
 
 ### Complications ###
 
