@@ -23,7 +23,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
   
 ### Method ###
-* Jupyter notebook/Python Pandas
+* Using Jupyter notebook/Python Pandas
    * pd.read_csv
    * pd.read_json
 
@@ -35,13 +35,11 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   * **How error resolved:** Used instead encoding = 'latin-1'
 
 <br>
-<br>
-<br>
 
 ## 2) Transform ##
 
 ### Types of transformation ###
-* In Python Pandas:
+* Using Jupyter notebook/Python Pandas:
   * Combining multiple CSVs into single dataframe
   * Rename columns
   * Keep only columns of interest
@@ -51,6 +49,8 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 
 * Had multiple dataframes with columns named as only the year. This could possibly cause confusion in later analysis or manipulation. **Resolution:** Rename columns to keep differentiated.
 * Adding code after already run to change the name of column in DataFrame, but table using the old DataFrame had already been created. **Resolution:** Drop the old table from the db and adjust the code accordingly.
+
+<br>
 
 ## 3) Load ##
 
