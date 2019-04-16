@@ -7,7 +7,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 ### Sources of data extraction ###
 
 * [Travel Data](https://data.worldbank.org/indicator/ST.INT.ARVL?end=2017&start=1995&year_high_desc=false)
-  * For 10 years from 2008 to 2018, shows number of traveler arrivals per country
+  * International tourism rates: For 10 years from 2008 to 2018, shows number of traveler arrivals per country
   * File types: CSV
 * [Country Data](https://www.kaggle.com/fernandol/countries-of-the-world)
   * Country names linked to region, population, area size, GDP, mortality and more
@@ -23,8 +23,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
   
 ### Method ###
-* Jupyter notebook/Python
-  * Pandas
+* Jupyter notebook/Python Pandas
    * pd.read_csv
    * pd.read_json
 
@@ -45,11 +44,12 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 * In Python Pandas:
   * Rename columns
   * Keep only columns of interest
-  * 
+  * Drop columns with no data
 
 ### Complications ###
 
 * Had multiple dataframes with columns named as only the year. This could possibly cause confusion in later analysis or manipulation. **Resolution:** Rename columns to keep differentiated.
+* Adding code after already run to change the name of column in DataFrame, but table using the old DataFrame had already been created. **Resolution:** Drop the old table from the db and adjust the code accordingly.
 
 ## The type of final production database to load the data into (relational or non-relational). ## 
 
