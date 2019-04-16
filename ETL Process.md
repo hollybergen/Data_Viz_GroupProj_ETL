@@ -14,10 +14,10 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   * File types: CSV, JSON
 * [Birth Rate](https://databank.worldbank.org/data/reports.aspx?source=gender-statistics#)
   * All countries were selected and the series called "Birth rate, crude (per 1,000 people)" was selected for the years 2016-2018. Unfortunately, only data for 2016 was available
-  * File type: CSV
+  * File types: CSV
 * [Economic Data](https://www.heritage.org/index/explore?view=by-region-country-year&u=636907699184875439)
   * Past 10 years of country wise economic index data was downloaded as a CSV file from heritage.org. Individual files were mapped with their corresponding two level and three level country codes and corresponding dialing codes using vlookups
-  * File type: CSV
+  * File types: CSV
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
@@ -39,7 +39,17 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 <br>
 <br>
 
-## The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc) ##
+## 2) Transform ##
+
+### Types of transformation ###
+* In Python Pandas:
+  * Rename columns
+  * Keep only columns of interest
+  * 
+
+### Complications ###
+
+* Had multiple dataframes with columns named as only the year. This could possibly cause confusion in later analysis or manipulation. **Resolution:** Rename columns to keep differentiated.
 
 ## The type of final production database to load the data into (relational or non-relational). ## 
 
