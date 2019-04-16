@@ -78,3 +78,20 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 * Adding code after already run to change the name of column in DataFrame, but table using the old DataFrame had already been created. **Resolution:** Drop the old table from the db and adjust the code accordingly.
 
 <br>
+
+## 3) Load ##
+
+### Final production database ### 
+
+  * Using Jupyter Notebook/sqlalchemy & pymysql:
+    * Create connection string (rds_connection_string)
+    * Create engine variable (create_engine)
+    * Create connection (engine.connect)
+    * Create a database (connection.execute)
+    * Create tables (.to_sql)
+    * Check that tables are loaded into db (.read_sql_query)
+
+### Complications ###
+
+* **Error creating table:** UnicodeEncodeError: 'latin-1' codec can't encode character '\u2019' in position 18: ordinal not in range(256) 
+  * **How error resolved:** Had to encode as utf-8 with code "?charset=utf8" at end of connection string
