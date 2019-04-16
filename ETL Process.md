@@ -23,11 +23,11 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
   
 ### Method ###
-* Using Jupyter notebook/Python Pandas
+* Using Jupyter Notebook/Python Pandas
    * pd.read_csv
    * pd.read_json
 
-### Complications ###
+### Challenges ###
 
 * **Error with csv read:** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64  
   * **How error resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines
@@ -39,13 +39,13 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 ## 2) Transform ##
 
 ### Types of transformation ###
-* Using Jupyter notebook/Python Pandas:
+* Using Jupyter Notebook/Python Pandas:
   * Combining multiple CSVs into single dataframe
   * Rename columns
   * Keep only columns of interest
   * Drop columns with no data
 
-### Complications ###
+### Challenges ###
 
 * Had multiple dataframes with columns named as only the year. This could possibly cause confusion in later analysis or manipulation. **Resolution:** Rename columns to keep differentiated.
 * Adding code after already run to change the name of column in DataFrame, but table using the old DataFrame had already been created. **Resolution:** Drop the old table from the db and adjust the code accordingly.
@@ -56,6 +56,17 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 
 ### Final production database ### 
 
+  * Using Jupyter Notebook/sqlalchemy & pymysql:
+    * Create connection string (rds_connection_string)
+    * Create engine variable (create_engine)
+    * Create connection (engine.connect)
+    * Create a database (connection.execute)
+    * Create tables (.to_sql)
+    * Check that tables are loaded into db (.read_sql_query)
+
 ### Complications ###
+
+* **Error creating table:** UnicodeEncodeError: 'latin-1' codec can't encode character '\u2019' in position 18: ordinal not in range(256) 
+  * **How error resolved:** Had to encode as utf-8 with code "?charset=utf8" at end of connection string
 
 ### Final tables or collections that will be used in production database ###
