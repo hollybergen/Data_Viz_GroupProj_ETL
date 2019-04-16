@@ -10,7 +10,7 @@
   * File types: CSV, JSON
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
-
+  ![](/Desktop/Capture.jpg)
 
 ## The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc) ##
 
