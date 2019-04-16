@@ -10,7 +10,7 @@
   * File types: CSV, JSON
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
-  ![](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/42236/versions/5/screenshot.jpg)
+  ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
 
 ## The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc) ##
 
