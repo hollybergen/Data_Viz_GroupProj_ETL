@@ -1,6 +1,8 @@
 # ETL Process #
 
-## Sources of data extraction ##
+## 1) Extract ##
+
+### Sources of data extraction ###
 
 * [Travel Data](https://data.worldbank.org/indicator/ST.INT.ARVL?end=2017&start=1995&year_high_desc=false)
   * For 10 years from 2008 to 2018, shows number of traveler arrivals per country
@@ -14,7 +16,7 @@
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
 
-### Complications ###
+#### Complications ####
 
 **Error with csv read:** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64  <br>
 **How error resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines. <br>
