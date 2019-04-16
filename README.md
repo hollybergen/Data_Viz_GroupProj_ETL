@@ -50,7 +50,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
   
 ### Method ###
-* Using Jupyter notebook/Python Pandas
+* Using Jupyter Notebook/Python Pandas
    * pd.read_csv
    * pd.read_json
 
@@ -65,8 +65,8 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 
 ## 2) Transform ##
 
-### Types of transformation ###
-* Using Jupyter notebook/Python Pandas:
+### Method ###
+* Using Jupyter Notebook/Python Pandas:
   * Combining multiple CSVs into single dataframe
   * Rename columns
   * Keep only columns of interest
