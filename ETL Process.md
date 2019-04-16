@@ -14,6 +14,15 @@
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
 
+### Complications ###
+
+** Error with csv read: ** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64 
+** How error resolved: ** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines. 
+
+** Error with csv read: ** UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 18: invalid start byte 
+** How error resolved: ** Used instead encoding = 'latin-1'
+
+
 ## The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc) ##
 
 ## The type of final production database to load the data into (relational or non-relational). ## 
