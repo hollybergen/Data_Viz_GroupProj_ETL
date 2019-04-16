@@ -42,6 +42,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 
 ### Types of transformation ###
 * In Python Pandas:
+  * Combining multiple CSVs into single dataframe
   * Rename columns
   * Keep only columns of interest
   * Drop columns with no data
@@ -51,6 +52,10 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 * Had multiple dataframes with columns named as only the year. This could possibly cause confusion in later analysis or manipulation. **Resolution:** Rename columns to keep differentiated.
 * Adding code after already run to change the name of column in DataFrame, but table using the old DataFrame had already been created. **Resolution:** Drop the old table from the db and adjust the code accordingly.
 
-## The type of final production database to load the data into (relational or non-relational). ## 
+## 3) Load ##
 
-## The final tables or collections that will be used in the production database. ## 
+### Final production database ### 
+
+### Complications ###
+
+### Final tables or collections that will be used in production database ###
