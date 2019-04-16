@@ -27,11 +27,10 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 
 ### Complications ###
 
-* **Error with csv read:** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64  <br>
-  * **How error resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines. <br>
-
-* **Error with csv read:** UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 18: invalid start byte <br>
-  * **How error resolved:** Used instead encoding = 'latin-1'<br>
+* **Error with csv read:** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64  
+  * **How error resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines
+* **Error with csv read:** UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 18: invalid start byte 
+  * **How error resolved:** Used instead encoding = 'latin-1'
 
 <br>
 <br>
