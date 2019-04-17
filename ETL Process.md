@@ -50,7 +50,8 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 
 ### Types of transformation ###
 * Using Jupyter Notebook/Python Pandas:
-  * Combining multiple CSVs into single dataframe
+  * Turn API extracted lists into dataframe
+  * Combine multiple CSVs into single dataframe
   * Rename columns
   * Keep only columns of interest
   * Drop columns with no data
