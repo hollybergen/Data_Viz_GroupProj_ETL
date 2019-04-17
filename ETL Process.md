@@ -18,9 +18,13 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 * [Economic Data](https://www.heritage.org/index/explore?view=by-region-country-year&u=636907699184875439)
   * Past 10 years of country wise economic index data was downloaded as a CSV file from heritage.org. Individual files were mapped with their corresponding two level and three level country codes and corresponding dialing codes using vlookups
   * File types: CSV
+* [Country Code API](https://restcountries.eu/)
+  * Pulling data from JSON file that will include country name, 2-digit, and 3-digit country codes
+  * File types: API/JSON
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
+  ![](https://banner2.kisspng.com/20180821/px/kisspng-application-programming-interface-logo-image-compu-i-can-develop-back-end-rest-api-for-your-service-f-5b7c8fe20af486.3712986915348899540449.jpg)
   
 ### Method ###
 * Using Jupyter Notebook/Python Pandas
