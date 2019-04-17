@@ -24,7 +24,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
-  ![](https://banner2.kisspng.com/20180821/px/kisspng-application-programming-interface-logo-image-compu-i-can-develop-back-end-rest-api-for-your-service-f-5b7c8fe20af486.3712986915348899540449.jpg)
+  ![](https://mysiteauditor.com/themes/seogroup/img/api.png)
   
 ### Method ###
 * Using Jupyter Notebook/Python Pandas
