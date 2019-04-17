@@ -27,7 +27,7 @@ We would like to be able to examine which countries are happiest and what indica
 
 # ETL Process #
 
-See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/Happiness_Master.ipynb)
+Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/Happiness_Master.ipynb)
 
 ## 1) Extract ##
 
@@ -45,9 +45,13 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 * [Economic Data](https://www.heritage.org/index/explore?view=by-region-country-year&u=636907699184875439)
   * Past 10 years of country wise economic index data was downloaded as a CSV file from heritage.org. Individual files were mapped with their corresponding two level and three level country codes and corresponding dialing codes using vlookups
   * File types: CSV
+* [Country Code API](https://restcountries.eu/)
+  * Pulling data from JSON file that will include country name, 2-digit, and 3-digit country codes
+  * File types: API/JSON
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
+  ![](https://d12m9erqbesehq.cloudfront.net/wp-content/uploads/2016/04/30152042/event-smart-rest-api.png)
   
 ### Method ###
 * Using Jupyter Notebook/Python Pandas
@@ -57,17 +61,24 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 ### Challenges ###
 
 * **Error with csv read:** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64  
-  * **How error resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines
+  * **How error was resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines
 * **Error with csv read:** UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 18: invalid start byte 
-  * **How error resolved:** Used instead encoding = 'latin-1'
+  * **How error was resolved:** Used instead encoding = 'latin-1'
+* **Error with API call:** Received 404 not found when trying to call API
+  * **How error was resolved:** Discovered there is a space after every country in the list. Used .rsplit to iterate through list and remove space at the end of every item
+* **Error with API call:** TypeError: list indices must be integers or slices, not str. 
+  * **How error was resolved:** Corrected by indexing the JSON with [0]
+* **Error with API call:** KeyError: 0 not found. Was receiving a 404 error not found for certain countries on the list. 
+  * **How error was resolved:** Added a try/except in the loop for these countries.
 
 <br>
 
 ## 2) Transform ##
 
-### Method ###
+### Types of transformation ###
 * Using Jupyter Notebook/Python Pandas:
-  * Combining multiple CSVs into single dataframe
+  * Turn API extracted lists into dataframe
+  * Combine multiple CSVs into single dataframe
   * Rename columns
   * Keep only columns of interest
   * Drop columns with no data
@@ -95,3 +106,5 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 
 * **Error creating table:** UnicodeEncodeError: 'latin-1' codec can't encode character '\u2019' in position 18: ordinal not in range(256) 
   * **How error resolved:** Had to encode as utf-8 with code "?charset=utf8" at end of connection string
+
+### Final tables or collections that will be used in production database ###
