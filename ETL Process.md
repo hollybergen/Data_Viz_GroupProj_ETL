@@ -1,6 +1,6 @@
 # ETL Process #
 
-See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/Happiness_Master.ipynb)
+Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/Happiness_Master.ipynb)
 
 ## 1) Extract ##
 
