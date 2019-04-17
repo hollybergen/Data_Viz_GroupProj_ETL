@@ -24,7 +24,7 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
   
   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnvI90j2xfHv-iNWtOBKwa_2xRDuaAQxOE9_Tk0HNGaIRSCf)
   ![](https://cdn.iconscout.com/icon/free/png-256/json-file-1-504451.png)
-  ![](https://mysiteauditor.com/themes/seogroup/img/api.png)
+  ![](https://d12m9erqbesehq.cloudfront.net/wp-content/uploads/2016/04/30152042/event-smart-rest-api.png)
   
 ### Method ###
 * Using Jupyter Notebook/Python Pandas
