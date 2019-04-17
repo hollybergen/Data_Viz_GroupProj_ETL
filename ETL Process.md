@@ -34,9 +34,15 @@ See [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupProj_ET
 ### Challenges ###
 
 * **Error with csv read:** ParserError: Error tokenizing data. C error: Expected 3 fields in line 5, saw 64  
-  * **How error resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines
+  * **How error was resolved:** This looked to be a parsing error. Added "error_bad_lines=False" to code to skip the offending lines
 * **Error with csv read:** UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 18: invalid start byte 
-  * **How error resolved:** Used instead encoding = 'latin-1'
+  * **How error was resolved:** Used instead encoding = 'latin-1'
+* **Error with API call:** Received 404 not found when trying to call API
+  * **How error was resolved:** Discovered there is a space after every country in the list. Used .rsplit to iterate through list and remove space at the end of every item
+* **Error with API call:** TypeError: list indices must be integers or slices, not str. 
+  * **How error was resolved:** Corrected by indexing the JSON with [0]
+* **Error with API call:** KeyError: 0 not found. Was receiving a 404 error not found for certain countries on the list. 
+  * **How error was resolved:** Added a try/except in the loop for these countries.
 
 <br>
 
