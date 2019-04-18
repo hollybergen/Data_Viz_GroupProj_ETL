@@ -90,7 +90,9 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 
 * Using Jupyter Notebook/sqlalchemy,pymysql,pandas,matplotlib:
   * Use engine.execute and SQL code to now join tables from the happiness_db database
-  * Reversing the order of operations to now reference the SQL query, create lists with a for loop, and using those lists to create a new dataframe
+  * Reversing the order of operations to now create Dataframes from the db via 2 different methods: 
+   * 1) Reference the SQL query, create lists with a for loop, and using those lists to create a new dataframe
+   * 2) Reference the SQL query and use pd.DataFrame(np.array(list))
   * Plot dataframe with matplotlib
   
    ![](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/resources/images/Birthrate%20vs.Happiness%20Score%20by%20Country.png)
