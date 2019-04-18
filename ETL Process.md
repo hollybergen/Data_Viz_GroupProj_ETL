@@ -83,6 +83,8 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 * **Error creating table:** UnicodeEncodeError: 'latin-1' codec can't encode character '\u2019' in position 18: ordinal not in range(256) 
   * **How error resolved:** Had to encode as utf-8 with code "?charset=utf8" at end of connection string
 
+<br>
+
 ## Final tables or collections that will be used in production database ##
 (Working backwards!)
 
@@ -93,6 +95,7 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
   * Reversing the order of operations to now create Dataframes from the db via 2 different methods: 
    
 <br>
+
 **Birthrate**
 
    * engine.execute to run SQL query and join birthrate table with happiness data table
@@ -103,6 +106,7 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
    <br>
    
  <br>
+ 
  **Happiness**
  
    * engine.execute to run SQL query and join happiness data table with travel and country facts table for later analysis
