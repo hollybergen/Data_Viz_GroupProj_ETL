@@ -12,6 +12,9 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 * [Country Data](https://www.kaggle.com/fernandol/countries-of-the-world)
   * Country names linked to region, population, area size, GDP, mortality and more
   * File types: CSV, JSON
+* [Happiness Data](https://www.kaggle.com/unsdsn/world-happiness#2017.csv)
+  * The happiness scores and rankings use data from the Gallup World Poll and gives a score per country. Pulled most recent data, for 2017
+  * Data types: CSV
 * [Birth Rate](https://databank.worldbank.org/data/reports.aspx?source=gender-statistics#)
   * All countries were selected and the series called "Birth rate, crude (per 1,000 people)" was selected for the years 2016-2018. Unfortunately, only data for 2016 was available
   * File types: CSV
