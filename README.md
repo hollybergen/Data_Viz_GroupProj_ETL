@@ -37,8 +37,11 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
   * International tourism rates: For 10 years from 2008 to 2018, shows number of traveler arrivals per country
   * File types: CSV
 * [Country Data](https://www.kaggle.com/fernandol/countries-of-the-world)
-  * Country names linked to region, population, area size, GDP, mortality and more
+  * Country names linked to region, population, area size, GDP, mortality and more (Factbook from US Government, 2013).
   * File types: CSV, JSON
+* [Happiness Data](https://www.kaggle.com/unsdsn/world-happiness#2017.csv)
+  * The happiness scores and rankings use data from the Gallup World Poll and gives a score per country. Pulled most recent data, for 2017
+  * Data types: CSV
 * [Birth Rate](https://databank.worldbank.org/data/reports.aspx?source=gender-statistics#)
   * All countries were selected and the series called "Birth rate, crude (per 1,000 people)" was selected for the years 2016-2018. Unfortunately, only data for 2016 was available
   * File types: CSV
@@ -75,7 +78,7 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 
 ## 2) Transform ##
 
-### Types of transformation ###
+### Method ###
 * Using Jupyter Notebook/Python Pandas:
   * Turn API extracted lists into dataframe
   * Combine multiple CSVs into single dataframe
@@ -107,4 +110,14 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 * **Error creating table:** UnicodeEncodeError: 'latin-1' codec can't encode character '\u2019' in position 18: ordinal not in range(256) 
   * **How error resolved:** Had to encode as utf-8 with code "?charset=utf8" at end of connection string
 
-### Final tables or collections that will be used in production database ###
+## Final tables or collections that will be used in production database ##
+(Working backwards!)
+
+### Method ###
+
+* Using Jupyter Notebook/sqlalchemy,pymysql,pandas,matplotlib:
+  * Use engine.execute and SQL code to now join tables from the happiness_db database
+  * Reversing the order of operations to now reference the SQL query, create lists with a for loop, and using those lists to create a new dataframe
+  * Plot dataframe with matplotlib
+  
+   ![](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/resources/images/Top%2010%20Countries%20by%20Happiness.png)
