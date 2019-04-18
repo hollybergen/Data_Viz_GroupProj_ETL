@@ -10,7 +10,7 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
   * International tourism rates: For 10 years from 2008 to 2018, shows number of traveler arrivals per country
   * File types: CSV
 * [Country Data](https://www.kaggle.com/fernandol/countries-of-the-world)
-  * Country names linked to region, population, area size, GDP, mortality and more
+  * Country names linked to region, population, area size, GDP, mortality and more (Factbook from US Government, 2013).
   * File types: CSV, JSON
 * [Happiness Data](https://www.kaggle.com/unsdsn/world-happiness#2017.csv)
   * The happiness scores and rankings use data from the Gallup World Poll and gives a score per country. Pulled most recent data, for 2017
