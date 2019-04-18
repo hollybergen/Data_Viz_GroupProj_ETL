@@ -91,11 +91,26 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 * Using Jupyter Notebook/sqlalchemy,pymysql,pandas,matplotlib:
   * Use engine.execute and SQL code to now join tables from the happiness_db database
   * Reversing the order of operations to now create Dataframes from the db via 2 different methods: 
-   * 1) Reference the SQL query, create lists with a for loop, and using those lists to create a new dataframe
-   * 2) Reference the SQL query and use pd.DataFrame(np.array(list))
-  * Plot dataframe with matplotlib
-  
+   
+<br>
+**Birthrate**
+
+   * engine.execute to run SQL query and join birthrate table with happiness data table
+   * pd.DataFrame(np.array(list)) to turn the output list into a dataframe & rename columns
+   * plt.scatter to plot dataframe
+ 
    ![](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/resources/images/Birthrate%20vs.Happiness%20Score%20by%20Country.png)
+   <br>
+   
+ <br>
+ **Happiness**
+ 
+   * engine.execute to run SQL query and join happiness data table with travel and country facts table for later analysis
+   * ORDER BY happiness score to ensure the top 10 are displayed
+   * create for loop for 10 iterations and save as lists
+   * pd.DataFrame to use lists to create new dataframe
+   * plot.barh to plot dataframe
+   
    ![](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/resources/images/Top%2010%20Countries%20by%20Happiness.png)
 
 
