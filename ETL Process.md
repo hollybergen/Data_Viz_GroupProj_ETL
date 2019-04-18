@@ -93,7 +93,7 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
   * Reversing the order of operations to now reference the SQL query, create lists with a for loop, and using those lists to create a new dataframe
   * # Plot dataframe with matplotlib
   
-  
+   ![](https://github.com/hollybergen/Data_Viz_GroupProj_ETL/blob/master/resources/images/Top%2010%20Countries%20by%20Happiness.png)
 
 
 
