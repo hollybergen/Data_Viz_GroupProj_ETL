@@ -51,7 +51,7 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 
 ## 2) Transform ##
 
-### Types of transformation ###
+### Method ###
 * Using Jupyter Notebook/Python Pandas:
   * Turn API extracted lists into dataframe
   * Combine multiple CSVs into single dataframe
@@ -83,4 +83,17 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
 * **Error creating table:** UnicodeEncodeError: 'latin-1' codec can't encode character '\u2019' in position 18: ordinal not in range(256) 
   * **How error resolved:** Had to encode as utf-8 with code "?charset=utf8" at end of connection string
 
-### Final tables or collections that will be used in production database ###
+## Final tables or collections that will be used in production database ##
+(Working backwards!)
+
+### Method ###
+
+* Using Jupyter Notebook/sqlalchemy,pymysql,pandas,matplotlib:
+  * Use engine.execute and SQL code to now join tables from the happiness_db database
+  * Reversing the order of operations to now reference the SQL query, create lists with a for loop, and using those lists to create a new dataframe
+  * # Plot dataframe with matplotlib
+  
+  
+
+
+
