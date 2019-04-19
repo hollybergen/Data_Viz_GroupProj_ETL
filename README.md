@@ -105,7 +105,7 @@ Reference [Jupyter Notebook file](https://github.com/hollybergen/Data_Viz_GroupP
     * Create tables (.to_sql)
     * Check that tables are loaded into db (.read_sql_query)
 
-### Complications ###
+### Challenges ###
 
 * **Error creating table:** UnicodeEncodeError: 'latin-1' codec can't encode character '\u2019' in position 18: ordinal not in range(256) 
   * **How error resolved:** Had to encode as utf-8 with code "?charset=utf8" at end of connection string
