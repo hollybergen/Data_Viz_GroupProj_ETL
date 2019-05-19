@@ -1,8 +1,8 @@
 # Project Proposal #
 
 ## “Searching for Happiness in all the right places” ##
-Jason Winer   
-Holly Bergen  
+Holly Bergen (Scrum Master) 
+Jason Winer 
 Chelsea Monahan  
 Pravin Venkatraman  
 
