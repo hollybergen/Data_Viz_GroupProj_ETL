@@ -2,8 +2,8 @@
 
 ## “Searching for Happiness in all the right places” ##
 Holly Bergen (Scrum Master)   
-Jason Winer 
-Chelsea Monahan  
+Jason Winer    
+Chelsea Monahan   
 Pravin Venkatraman  
 
 
